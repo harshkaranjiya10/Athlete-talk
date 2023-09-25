@@ -1,28 +1,20 @@
 'use client'
 import React, { useEffect, useState } from 'react';
-import {
-    CssVarsProvider,
-    useColorScheme,
-} from '@mui/joy/styles';
+import { CssVarsProvider, useColorScheme, } from '@mui/joy/styles';
 import GlobalStyles from '@mui/joy/GlobalStyles';
 import CssBaseline from '@mui/joy/CssBaseline';
 import Box from '@mui/joy/Box';
 import Button from '@mui/joy/Button';
 import Checkbox from '@mui/joy/Checkbox';
 import FormControl from '@mui/joy/FormControl';
-import FormLabel, {
-    formLabelClasses,
-} from '@mui/joy/FormLabel';
-import IconButton, {
-    IconButtonProps,
-} from '@mui/joy/IconButton';
+import FormLabel, { formLabelClasses, } from '@mui/joy/FormLabel';
+import IconButton from '@mui/joy/IconButton';
 import Link from '@mui/joy/Link';
 import Input from '@mui/joy/Input';
 import Typography from '@mui/joy/Typography';
 import DarkModeRoundedIcon from '@mui/icons-material/DarkModeRounded';
 import LightModeRoundedIcon from '@mui/icons-material/LightModeRounded';
 import GoogleIcon from './googleicon';
-// Define your component here
 
 function ColorSchemeToggle({ onClick, ...props }) {
     const { mode, setMode } = useColorScheme();
