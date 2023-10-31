@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-;
+}
+
+a {
+  color:rgba(0, 0, 0, 0.677);
+  text-decoration: none;
+} 
+
+
+header {
+  display: flex;
+  padding: 20px 10px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.head--bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head--bar > img {
+  width: 65px;
+  height: 65px;
+}
+
+
+header > h1{
+  font-size: 2rem;
+  margin-left: 8px;
+  margin-top: 15px;
+}
+
+header > h3 {
+  margin-left: auto; 
+  margin-top: 30px;
+  font-size: 1.2rem;
+  height: 1.7rem;
+  border: solid 3px black;
+  background-color: gold;
+  border-radius: 7px;
+}
+
+nav {
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+  font-size: 1.4rem;
+}
+
+.navbar--options {
+  display: flex;
+}
+ 
+.navbar--options > ul {
+  
+  display: flex;
+  margin-right: 27px;  
+}
+
+ul  {
+  display: flex; 
+}
+
+ul > a {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  
+  border: solid 2px white;
+  background-color: rgba(0, 0, 0, 0.377);
+}
+
+ul > a:any-link {
+  color: white;
+}
+a :hover {
+  background-color: gray;
+}
+
+
+/* ---------------------------------------------------------------------------------------------- Main*/
+
+main{
+  
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1); 
+}
+
+
+/* --- Trainer */
+
+.main--Trainers{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 3.5rem;
+  scroll-behavior: auto;
+}
+
+
+.trainer-list {
+
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.card {
+  width: 200px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
+
+.card--price {
+  margin-top: auto;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+/* -------------------------------------------------------------------------------------  Footer*/
+
+.foot {
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.logo--app {
+  height: 100px;
+  width: 100px;
+
+}
+
+.footer{
+  display: flex; 
+  align-items: 0; 
+  flex-direction: column;
+}
+
+.head {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer--head--app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head--bar--footer {
+  height: 75px;
+  width: 75px;
+}
+
+.footer > h4 {
+  font-size: 1.5rem;
+  letter-spacing: 3.7px;
+  padding: 4px;
+}
+
+.footer--links {
+  letter-spacing: 3.7px;
+}
+
+.footer--links > a {
+  padding: 2px;
+  height: 24px;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.contact--info{ 
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer--copyright {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.footer--icon {
+  height: 20px;
+  padding: 10px;
+  width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
